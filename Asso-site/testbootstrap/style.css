@@ -1,0 +1,55 @@
+body {
+  background-color: #1a220f;
+}
+.logo {
+  height: 50px;
+}
+h1 {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .spanmd {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logotop {
+    display: none;
+  }
+  h1 {
+    font-size: 1.4em;
+    width: 576px;
+  }
+}
+@media (min-width: 576px) {
+  .spansm {
+    display: none;
+  }
+}
+.logotop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 08vh;
+  width: 260px;
+}
+.navbar-collapse {
+  margin-left: 60px;
+}
+
+.middle {
+  height: 80vh;
+  background-color: #191414;
+  max-width: 1000px;
+}
+.bottom {
+  height: 100vh;
+  background-color: rgb(78, 78, 78);
+}
+.footer {
+  height: 10vh;
+  background-color: black;
+}
