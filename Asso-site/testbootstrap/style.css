@@ -34,38 +34,72 @@ h1 {
   margin-top: 10px;
 }
 .photobox {
+  height: 70vh;
   border-top: 1px solid grey;
   padding-top: 10px;
   display: flex;
   flex-direction: column;
 }
 .activite {
-  margin-top: 25px;
+  margin-top: -10px;
   border: 1px solid grey;
 }
 
 .form {
   padding-top: 10px;
-  height: 60vh;
+<<<<<<< Updated upstream
+  height: 120vh;
+=======
+  height: 150vh;
+>>>>>>> Stashed changes
   text-align: center;
 }
 .rowform {
-  height: 30vh;
+  height: 90vh;
   background-color: rgb(172, 171, 171);
+  border: 1px solid grey;
 }
 .centered {
   width: 65%;
   margin: auto;
+  border: 1px solid grey;
 }
 .titleform {
   color: rgb(255, 107, 107);
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: x-large;
   letter-spacing: 0.1em;
   text-decoration-line: underline;
   text-transform: uppercase;
   font-weight: bolder;
+  /* border: 1px solid grey; */
+}
+.textform {
+  font-size: medium;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 25px;
+}
+.colform {
+  margin-left: 25px;
+<<<<<<< Updated upstream
+}
+.btncustom {
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: black;
+  background-color: rgb(160, 160, 160);
+=======
   border: 1px solid grey;
+>>>>>>> Stashed changes
+}
+.btncustom {
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: black;
+  background-color: rgb(160, 160, 160);
 }
 
 @media (max-width: 576px) {
@@ -74,6 +108,11 @@ h1 {
   }
   .centered {
     width: 100%;
+  }
+  .textform {
+    width: 100%;
+    margin: auto;
+    text-align: center;
   }
 }
 

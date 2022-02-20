@@ -48,18 +48,18 @@
               <a class="nav-link" href="#">Activités</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
           <form class="d-flex">
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder=""
               aria-label="Search"
             />
             <button class="btn btn-outline-success" type="submit">
-              Search
+              Rechercher
             </button>
           </form>
         </div>
@@ -113,7 +113,7 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 offset-md-2 activite">
+        <div class="col-12 col-md-5 offset-md-1 activite">
           <p class="justify">
             <strong
               >Choisissez l'activité de votre choix (en cas d'inscription à
@@ -195,7 +195,7 @@
           </p>
         </div>
         <!-------------------------test x2------------------------------------->
-        <div class="col-12 col-md-4 activite">
+        <div class="col-12 col-md-5 activite">
           <p class="justify">
             <strong
               >Choisissez l'activité de votre choix (en cas d'inscription à
@@ -278,25 +278,58 @@
         </div>
       </div>
     </div>
-    <!------------- form contact ------->
     <div class="container form">
+<<<<<<< HEAD
       <!----------- title form -------->
-      <p class="titleform">Contactez nous pour plus d'informations:</p>
+<<<<<<< Updated upstream
+      <p class="titleform">
+=======
+      <p class="titleform" id="contact">
+>>>>>>> Stashed changes
+        Formulaire de saisie des coordonnées de votre association/club
+      </p>
+      <div class="row g-3">
+        <div class="col-12 col-md-10 offset-md-1">
+          <p class="textform">
+            Afin de récupérer plus facilement les coordonnées de votre
+            club/association sportive, et d'éviter au maximum les erreurs de
+            saisie, nous vous invitons à entrer ces éléments dans le formulaire
+            ci-dessous.<br />
+            N'hésitez pas à apporter des remarques concernant spécifiquement
+            votre club dans la fenêtre "Message".<br />
+            Ces renseignements seront mis en ligne sur le site Internet de
+            l'Office du Sport et devront permettre de prendre contact avec vous
+            si besoin. Accordez-y toute l'importance nécessaire.<br />
+            Merci de votre collaboration.<br />
+          </p>
+        </div>
+      </div>
 
-      <form class="row g-3">
-        <div class="col-md-9">
+      <form class="row g-3 colform">
+        <div class="col-md-9 offset-md-1">
           <div class="input-group mb-3">
             <span class="input-group-text">Nom de l'association</span>
             <input type="text" aria-label="" class="form-control" />
           </div>
+
           <div class="input-group mb-3">
             <span class="input-group-text">Votre Mail</span>
             <input type="email" aria-label="emailHelp" class="form-control" />
+            <span class="input-group-text">Votre Téléphone</span>
+            <input type="tel" class="form-control" " />
           </div>
+
           <div class="input-group mb-3">
             <span class="input-group-text">Nom et Prénom</span>
             <input type="text" aria-label="First name" class="form-control" />
             <input type="text" aria-label="Last name" class="form-control" />
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text">Adresse</span>
+            <input type="text" aria-label="" class="form-control" />
+            <span class="input-group-text">Ville</span>
+            <input type="text" aria-label="" class="form-control" />
           </div>
 
           <div class="input-group mb-3">
@@ -306,15 +339,95 @@
               aria-label="With textarea"
             ></textarea>
           </div>
+
           <div class="input-group mb-3">
-            <input type="file" class="form-control" id="inputGroupFile02" />
+            <input type="file" class="form-control" />
             <label class="input-group-text" for="inputGroupFile02"
               >Upload</label
             >
+=======
+      <p class="titleform">Contactez nous pour plus d'informations:</p>
+
+      <form class="row g-3 centered">
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+>>>>>>> parent of b35b5fe (form)
           </div>
+
+          <div class="form-floating mb-3">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              style="height: 100px"
+            ></textarea>
+            <label for="floatingTextarea2">Message</label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Autorisez-vous la diffusion des informations ci-dessus sur le site
+              de l'Office du Sport ?
+            </label>
+            <button type="submit" class="btn btncustom">Envoyez</button>
+          </div>
+<<<<<<< Updated upstream
+=======
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+>>>>>>> Stashed changes
         </div>
       </form>
     </div>
+    <!------------------form contact---------------------------------->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
