@@ -45,19 +45,43 @@ h1 {
 }
 
 .form {
-  margin-top: 20px;
+  padding-top: 10px;
   height: 60vh;
-  background-color: rgb(97, 97, 97);
+  text-align: center;
+}
+.rowform {
+  height: 30vh;
+  background-color: rgb(172, 171, 171);
+}
+.centered {
+  width: 65%;
+  margin: auto;
+}
+.titleform {
+  color: rgb(255, 107, 107);
+  margin-top: 10px;
+  font-size: x-large;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 1px solid grey;
 }
 
 @media (max-width: 576px) {
   .spanmd {
     display: none;
   }
+  .centered {
+    width: 100%;
+  }
 }
 
 @media (min-width: 576px) {
   .spansm {
     display: none;
+  }
+  .centered {
+    width: 65%;
   }
 }
