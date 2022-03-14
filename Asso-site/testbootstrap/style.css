@@ -1,0 +1,126 @@
+/* background */
+body {
+  background-color: #c5c6c7;
+}
+
+.navbar-collapse {
+  margin-left: 60px;
+}
+/* titre */
+.title {
+  color: rgb(255, 107, 107);
+}
+h1 {
+  text-align: center;
+  padding-top: 0px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+/* intro txt */
+.intro > p {
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: large;
+}
+.center {
+  margin: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(255, 107, 107);
+}
+.end {
+  font-size: x-small;
+  margin-top: 10px;
+}
+.photobox {
+  height: 70vh;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.activite {
+  margin-top: -10px;
+  border: 1px solid grey;
+}
+
+.form {
+  padding-top: 10px;
+<<<<<<< Updated upstream
+  height: 120vh;
+=======
+  height: 150vh;
+>>>>>>> Stashed changes
+  text-align: center;
+}
+.rowform {
+  height: 90vh;
+  background-color: rgb(172, 171, 171);
+  border: 1px solid grey;
+}
+.centered {
+  width: 65%;
+  margin: auto;
+  border: 1px solid grey;
+}
+.titleform {
+  color: rgb(255, 107, 107);
+  margin-top: 20px;
+  font-size: x-large;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-weight: bolder;
+  /* border: 1px solid grey; */
+}
+.textform {
+  font-size: medium;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 25px;
+}
+.colform {
+  margin-left: 25px;
+<<<<<<< Updated upstream
+}
+.btncustom {
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: black;
+  background-color: rgb(160, 160, 160);
+=======
+  border: 1px solid grey;
+>>>>>>> Stashed changes
+}
+.btncustom {
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: black;
+  background-color: rgb(160, 160, 160);
+}
+
+@media (max-width: 576px) {
+  .spanmd {
+    display: none;
+  }
+  .centered {
+    width: 100%;
+  }
+  .textform {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .spansm {
+    display: none;
+  }
+  .centered {
+    width: 65%;
+  }
+}
